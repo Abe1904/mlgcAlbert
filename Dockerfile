@@ -4,7 +4,7 @@ WORKDIR /src
 
 COPY package*.json ./
 
-# ENV MODEL_URL <URL Bucket Model>
+ENV MODEL_URL 'https://storage.googleapis.com/bucketmlgcabe/submissions-model/model.json'
 
 RUN npm install
 
